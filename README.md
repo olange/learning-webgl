@@ -6,13 +6,13 @@ Articles, useful resources, courseware, personal notes
 
 ## Codelabs
 
-* [Intro to WebGL](codelabs/intro-to-webgl) _first steps in WebGL and Three.js, inspired by the slides of David Lyons (see hereafter)_
+* [Intro to WebGL with Three.js](codelabs/intro-to-webgl) _first steps and experiments, inspired by the slides of David Lyons (see [tutorials](#tutorials) hereafter)_
 
 ## Tutorials
 
-* [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) David Lyons, 11.2014  
-  ([122 slides](http://davidscottlyons.com/threejs-intro/) / [vidéo 10.2014](https://youtu.be/6eLl8yQnxHQ) 18mn. / [vidéo 11.2014](https://youtu.be/-L6WWbKthvw) 43mn. / [sources](https://github.com/davidlyons/threejs-intro))
+* [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) (David Lyons, 10-11.2014)
+  [slides](http://davidscottlyons.com/threejs-intro/) | [vidéo 10.2014](https://youtu.be/6eLl8yQnxHQ) 18mn. | [vidéo 11.2014](https://youtu.be/-L6WWbKthvw) 43mn. | [sources](https://github.com/davidlyons/threejs-intro)
 
-## Articles
+## Articles
 
-* [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/) Jake Archibald, 02.05.2017
+* [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/) (Jake Archibald, 02.05.2017)
