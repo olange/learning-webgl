@@ -4,6 +4,7 @@
   "description": "Sample codebits from « Intro to WebGL with Three.js » (http://davidscottlyons.com/threejs-intro/)",
   "main": "index.js",
   "scripts": {
+    "start": "prpl-server --root . --config config/prpl-server.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "license": "CC-BY-SA-4.0",
   "dependencies": {
     "three": "^0.93.0"
+  },
+  "devDependencies": {
+    "prpl-server": "^1.2.0"
   }
 }
