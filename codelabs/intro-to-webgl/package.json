@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-webgl",
+  "version": "1.0.0",
+  "description": "Sample codebits from « Intro to WebGL with Three.js » (http://davidscottlyons.com/threejs-intro/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olange/learning-webgl/tree/master/codelabs/intro-to-webgl"
+  },
+  "keywords": [
+    "three",
+    "webgl",
+    "tutorial"
+  ],
+  "author": "Olivier Lange",
+  "license": "CC-BY-SA-4.0",
+  "dependencies": {
+    "three": "^0.93.0"
+  }
+}
