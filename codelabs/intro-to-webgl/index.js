@@ -1,3 +1,5 @@
+"use strict";
+
 import {
   Scene, PerspectiveCamera, WebGLRenderer,
   BoxGeometry, MeshNormalMaterial, Mesh } from "./node_modules/three/build/three.module.js";
@@ -15,11 +17,16 @@ const cube = new Mesh( geometry, material);
 scene.add( cube);
 camera.position.z = 5;
 
-const render = function () {
-  requestAnimationFrame( render);
-  cube.rotation.x += 0.1;
-  cube.rotation.y += 0.1;
-  renderer.render( scene, camera );
+var lasttime = undefined;
+const stepduration = 15; // ms
+function update( timestamp) {
+  window.requestAnimationFrame( update);
+  if( typeof lasttime === "undefined" ||( timestamp - lasttime > stepduration)) {
+    lasttime = timestamp; // will be undefined on first call (with timestamp === undefined)
+    cube.rotation.x += 0.1;
+    cube.rotation.y += 0.1;
+    renderer.render( scene, camera);
+  }
 };
 
-render();
+update();
