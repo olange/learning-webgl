@@ -4,6 +4,10 @@ Articles, useful resources, courseware, personal notes
 
 [![Join the chat at https://gitter.im/olange/learning-webgl](https://badges.gitter.im/olange/learning-webgl.svg)](https://gitter.im/olange/learning-webgl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+## Codelabs
+
+* [Intro to WebGL](codelabs/intro-to-webgl) _first steps in WebGL and Three.js, inspired by the slides of David Lyons (see hereafter)_
+
 ## Tutorials
 
 * [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) David Lyons, 11.2014  
