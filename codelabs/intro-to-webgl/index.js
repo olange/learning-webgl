@@ -17,16 +17,25 @@ const cube = new Mesh( geometry, material);
 scene.add( cube);
 camera.position.z = 5;
 
-var lasttime = undefined;
+function update( time) {
+  cube.rotation.x += 0.1;
+  cube.rotation.y += 0.1;
+  cube.position.x = 2.5 * Math.cos( time / 1500.0);
+  cube.position.y = 2.5 * Math.sin( time / 1500.0);
+}
+
+let lasttime = undefined;
 const stepduration = 15; // ms
-function update( timestamp) {
-  window.requestAnimationFrame( update);
-  if( typeof lasttime === "undefined" ||( timestamp - lasttime > stepduration)) {
-    lasttime = timestamp; // will be undefined on first call (with timestamp === undefined)
-    cube.rotation.x += 0.1;
-    cube.rotation.y += 0.1;
-    renderer.render( scene, camera);
+
+function render( time) {
+  window.requestAnimationFrame( render);
+  if( typeof time !== "undefined") {
+    if( typeof lasttime === "undefined" ||( time - lasttime > stepduration)) {
+      lasttime = time;
+      update( time);
+      renderer.render( scene, camera);
+    }
   }
 };
 
-update();
+render();
