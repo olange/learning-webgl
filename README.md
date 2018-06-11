@@ -6,12 +6,14 @@ Articles, useful resources, courseware, personal notes
 
 ## Codelabs
 
-* [Intro to WebGL with Three.js](codelabs/intro-to-webgl) _first steps and experiments, inspired by the slides of David Lyons (see [tutorials](#tutorials) hereafter)_
+* [First steps with WebGL and Three.js](codelabs/intro-to-webgl) _first steps and experiments, inspired by the slides of David Lyons (see [tutorials](#tutorials) hereafter)_
 
 ## Tutorials
 
 * [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) (David Lyons, 10-11.2014)
   [slides](http://davidscottlyons.com/threejs-intro/) | [vidéo 10.2014](https://youtu.be/6eLl8yQnxHQ) 18mn. | [vidéo 11.2014](https://youtu.be/-L6WWbKthvw) 43mn. | [sources](https://github.com/davidlyons/threejs-intro)
+* [WebGL Fundamentals](https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html) (Greggman, 2012–2018 ongoing) _comprehensive collection of articles about WebGL, explained step by step_
+* [WebGL2 Fundamentals](https://webgl2fundamentals.org) (Greggman, 2012–2018 ongoing) _the same recipe as WebGL Fundamental: comprehensive, high-quality articles, well explained, learning step by step_
 
 ## Articles
 
