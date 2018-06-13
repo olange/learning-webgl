@@ -1,6 +1,6 @@
-# Codelab « Intro to WebGL with Three.js »
+# Codelab « First steps with WebGL and Three.js »
 
-A serie of code experiments, inspired by the « [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) » slides of David Scott Lyons.
+A serie of WebGL and Three.js code experiments, inspired by the « [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) » slides of David Scott Lyons.
 
 ![Intro to WebGL with Three.js · Screenshot](https://user-images.githubusercontent.com/673088/41070933-c4128eb0-69f5-11e8-8a99-13f1b873c44a.png)
 
