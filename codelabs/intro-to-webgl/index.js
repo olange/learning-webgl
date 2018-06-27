@@ -1,8 +1,12 @@
 "use strict";
 
 import {
-    Scene, PerspectiveCamera, WebGLRenderer,
-    BoxGeometry, MeshNormalMaterial, Mesh
+    WebGLRenderer,
+    Scene, PerspectiveCamera, 
+    Geometry, BoxGeometry,
+    Mesh, MeshNormalMaterial,
+    Line, LineDashedMaterial,
+    Vector3
   } from "./node_modules/three/build/three.module.js";
 
 import OrbitControls from "./node_modules/orbit-controls-es6/src/index.js";
@@ -20,15 +24,27 @@ const canvas = renderer.domElement;
 renderer.setSize( clientWidth, clientHeight);
 container.appendChild( canvas);
 
-const geometry = new BoxGeometry( 1, 1, 1);
-const material = new MeshNormalMaterial();
-const cube1 = new Mesh( geometry, material);
-const cube2 = new Mesh( geometry, material);
-const cube3 = new Mesh( geometry, material);
-scene.add( cube1);
-scene.add( cube2);
-scene.add( cube3);
-camera.position.z = 5;
+const boxGeometry = new BoxGeometry( 1, 1, 1);
+const boxMaterial = new MeshNormalMaterial();
+const box1 = new Mesh( boxGeometry, boxMaterial);
+const box2 = new Mesh( boxGeometry, boxMaterial);
+const box3 = new Mesh( boxGeometry, boxMaterial);
+scene.add( box1);
+scene.add( box2);
+scene.add( box3);
+
+const lineMaterial = new LineDashedMaterial({ color: 0x3399CC });
+const lineGeometry = new Geometry();
+lineGeometry.vertices.push( new Vector3( -5,  0,  0));
+lineGeometry.vertices.push( new Vector3(  0,  5,  0));
+lineGeometry.vertices.push( new Vector3(  5,  0,  0));
+lineGeometry.vertices.push( new Vector3(  0, -5,  0));
+lineGeometry.vertices.push( new Vector3( -5,  0,  0));
+const line = new Line( lineGeometry, lineMaterial);
+scene.add( line);
+
+camera.position.set( 0, -7, 2);
+camera.lookAt( new Vector3( 0, -5, 0));
 
 const controls = new OrbitControls( camera, canvas);
 controls.enabled = true;
@@ -39,14 +55,14 @@ controls.dampingFactor = 0.25
 controls.enableZoom = false;
 
 function update( time) {
-  cube1.rotation.x = cube2.rotation.x = cube3.rotation.x += 0.1;
-  cube1.rotation.y = cube2.rotation.y = cube3.rotation.y += 0.1;
-  cube1.position.x = 2.5 * Math.cos( time / 1500.0);
-  cube1.position.y = 2.5 * Math.sin( time / 1500.0);
-  cube2.position.x = 2.5 * Math.cos( time * 0.66 * Math.PI / 1500.0);
-  cube2.position.y = 2.5 * Math.sin( time * 0.66 * Math.PI / 1500.0);
-  cube3.position.x = 2.5 * Math.cos( time * 1.33 * Math.PI / 1500.0);
-  cube3.position.y = 2.5 * Math.sin( time * 1.33 * Math.PI / 1500.0);
+  box1.rotation.x = box2.rotation.x = box3.rotation.x += 0.1;
+  box1.rotation.y = box2.rotation.y = box3.rotation.y += 0.1;
+  box1.position.x = 2.5 * Math.cos( time / 1500.0);
+  box1.position.y = 2.5 * Math.sin( time / 1500.0);
+  box2.position.x = 2.5 * Math.cos( time * 0.66 * Math.PI / 1500.0);
+  box2.position.y = 2.5 * Math.sin( time * 0.66 * Math.PI / 1500.0);
+  box3.position.x = 2.5 * Math.cos( time * 1.33 * Math.PI / 1500.0);
+  box3.position.y = 2.5 * Math.sin( time * 1.33 * Math.PI / 1500.0);
 }
 
 let lasttime = undefined;
