@@ -19,6 +19,7 @@
   "author": "Olivier Lange",
   "license": "CC-BY-SA-4.0",
   "dependencies": {
+    "orbit-controls-es6": "^1.0.12",
     "three": "^0.93.0"
   },
   "devDependencies": {

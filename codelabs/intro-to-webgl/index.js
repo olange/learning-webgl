@@ -5,6 +5,8 @@ import {
     BoxGeometry, MeshNormalMaterial, Mesh
   } from "./node_modules/three/build/three.module.js";
 
+import OrbitControls from "./node_modules/orbit-controls-es6/src/index.js";
+
 const container = document.getElementById( "canvas");
 const clientWidth = container.clientWidth;
 const clientHeight = container.clientHeight;
@@ -13,8 +15,10 @@ const scene = new Scene();
 const aspect = clientWidth / clientHeight;
 const camera = new PerspectiveCamera( 75, aspect, 0.1, 1000);
 const renderer = new WebGLRenderer();
+
+const canvas = renderer.domElement;
 renderer.setSize( clientWidth, clientHeight);
-container.appendChild( renderer.domElement);
+container.appendChild( canvas);
 
 const geometry = new BoxGeometry( 1, 1, 1);
 const material = new MeshNormalMaterial();
@@ -25,6 +29,14 @@ scene.add( cube1);
 scene.add( cube2);
 scene.add( cube3);
 camera.position.z = 5;
+
+const controls = new OrbitControls( camera, canvas);
+controls.enabled = true;
+controls.maxDistance = 1500;
+controls.minDistance = 0;
+controls.enableDamping = true
+controls.dampingFactor = 0.25
+controls.enableZoom = false;
 
 function update( time) {
   cube1.rotation.x = cube2.rotation.x = cube3.rotation.x += 0.1;
