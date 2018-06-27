@@ -5,12 +5,16 @@ import {
     BoxGeometry, MeshNormalMaterial, Mesh
   } from "./node_modules/three/build/three.module.js";
 
+const container = document.getElementById( "canvas");
+const clientWidth = container.clientWidth;
+const clientHeight = container.clientHeight;
+
 const scene = new Scene();
-const aspect = window.innerWidth / window.innerHeight;
+const aspect = clientWidth / clientHeight;
 const camera = new PerspectiveCamera( 75, aspect, 0.1, 1000);
 const renderer = new WebGLRenderer();
-renderer.setSize( window.innerWidth, window.innerHeight);
-document.body.appendChild( renderer.domElement);
+renderer.setSize( clientWidth, clientHeight);
+container.appendChild( renderer.domElement);
 
 const geometry = new BoxGeometry( 1, 1, 1);
 const material = new MeshNormalMaterial();
