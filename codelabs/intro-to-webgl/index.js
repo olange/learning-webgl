@@ -6,7 +6,8 @@ import {
     Geometry, BoxGeometry,
     Mesh, MeshNormalMaterial,
     Line, LineDashedMaterial,
-    Vector3
+    Vector3,
+    SphereGeometry
   } from "./node_modules/three/build/three.module.js";
 
 import OrbitControls from "./node_modules/orbit-controls-es6/src/index.js";
@@ -25,13 +26,18 @@ renderer.setSize( clientWidth, clientHeight);
 container.appendChild( canvas);
 
 const boxGeometry = new BoxGeometry( 1, 1, 1);
-const boxMaterial = new MeshNormalMaterial();
-const box1 = new Mesh( boxGeometry, boxMaterial);
-const box2 = new Mesh( boxGeometry, boxMaterial);
-const box3 = new Mesh( boxGeometry, boxMaterial);
+const sphereGeometry = new SphereGeometry( 1, 24, 3);
+const normalMaterial = new MeshNormalMaterial();
+const wireframeMaterial = new MeshNormalMaterial();
+wireframeMaterial.wireframe = true;
+const box1 = new Mesh( boxGeometry, normalMaterial);
+const box2 = new Mesh( boxGeometry, normalMaterial);
+const box3 = new Mesh( boxGeometry, normalMaterial);
+const sphere = new Mesh( sphereGeometry, wireframeMaterial)
 scene.add( box1);
 scene.add( box2);
 scene.add( box3);
+scene.add( sphere);
 
 const lineMaterial = new LineDashedMaterial({ color: 0x3399CC });
 const lineGeometry = new Geometry();
@@ -48,15 +54,17 @@ camera.lookAt( new Vector3( 0, -5, 0));
 
 const controls = new OrbitControls( camera, canvas);
 controls.enabled = true;
-controls.maxDistance = 1500;
+controls.maxDistance = 1000;
 controls.minDistance = 0;
 controls.enableDamping = true
 controls.dampingFactor = 0.25
-controls.enableZoom = false;
+controls.enableZoom = true;
 
 function update( time) {
   box1.rotation.x = box2.rotation.x = box3.rotation.x += 0.1;
   box1.rotation.y = box2.rotation.y = box3.rotation.y += 0.1;
+  sphere.rotation.x += 0.05;
+  sphere.rotation.z += 0.1;
   box1.position.x = 2.5 * Math.cos( time / 1500.0);
   box1.position.y = 2.5 * Math.sin( time / 1500.0);
   box2.position.x = 2.5 * Math.cos( time * 0.66 * Math.PI / 1500.0);
