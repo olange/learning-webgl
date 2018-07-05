@@ -6,7 +6,8 @@ Articles, useful resources, courseware, personal notes
 
 ## Codelabs
 
-* [First steps with WebGL and Three.js](codelabs/intro-to-webgl) _first steps and experiments, inspired by the slides of David Lyons (see [tutorials](#tutorials) hereafter)_
+* [First steps with WebGL and Three.js](codelabs/intro-to-webgl) _first steps and experiments, inspired by the slides  
+  of David Lyons (see [tutorials](#tutorials) hereafter)_
 
 ## Tutorials
 

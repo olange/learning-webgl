@@ -1,8 +1,16 @@
 # Codelab « First steps with WebGL and Three.js »
 
-A serie of WebGL and Three.js code experiments, inspired by the « [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) » slides of David Scott Lyons.
+A few WebGL and Three.js code experiments, inspired by the « [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) » slides of David Scott Lyons.
 
-![Intro to WebGL with Three.js · Screenshot](https://user-images.githubusercontent.com/673088/41070933-c4128eb0-69f5-11e8-8a99-13f1b873c44a.png)
+![Intro to WebGL with Three.js · Screenshot](https://user-images.githubusercontent.com/673088/42326923-c9b5bc30-806a-11e8-9b75-a1825e3cef07.png)
+
+## Features (very basic!)
+
+* Setting up renderer, scene and camera
+* Box and sphere basic meshes
+* Animating the scene
+* Correctly setting canvas dimension with CSS (using `.clientWidth/Height` CSS properties – see [WebGL Anti-patterns #2](https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html))
+* Texturing the sphere with a color map (the earth)
 
 ## Usage
 
