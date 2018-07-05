@@ -4,11 +4,10 @@ import {
     WebGLRenderer,
     Scene, PerspectiveCamera, 
     Geometry, BoxGeometry, SphereGeometry,
-    Mesh, MeshNormalMaterial, MeshPhongMaterial, MeshBasicMaterial,
+    Mesh, MeshNormalMaterial, MeshPhongMaterial,
     Line, LineDashedMaterial,
-    AmbientLight,
-    Vector3,
-    TextureLoader
+    AmbientLight, TextureLoader,
+    Vector3
   } from "./node_modules/three/build/three.module.js";
 
 import OrbitControls from "./node_modules/orbit-controls-es6/src/index.js";
@@ -52,7 +51,7 @@ scene.add( box2);
 scene.add( box3);
 scene.add( sphere);
 
-const lineMaterial = new LineDashedMaterial({ color: 0x3399CC });
+const lineMaterial = new LineDashedMaterial({ color: 0x3399CC, dashSize: 0.5, gapSize: 0.25, scale: 2.0 });
 const lineGeometry = new Geometry();
 lineGeometry.vertices.push( new Vector3( -5,  0,  0));
 lineGeometry.vertices.push( new Vector3(  0,  5,  0));
@@ -60,6 +59,7 @@ lineGeometry.vertices.push( new Vector3(  5,  0,  0));
 lineGeometry.vertices.push( new Vector3(  0, -5,  0));
 lineGeometry.vertices.push( new Vector3( -5,  0,  0));
 const line = new Line( lineGeometry, lineMaterial);
+line.computeLineDistances();
 scene.add( line);
 
 camera.position.set( 0, -7, 2);
