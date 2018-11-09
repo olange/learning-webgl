@@ -1,0 +1,23 @@
+{
+  "name": "hosting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/olange/ptap.git"
+  },
+  "author": "Olivier Lange (olange@petit-atelier.ch)",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/olange/ptap/issues"
+  },
+  "homepage": "https://github.com/olange/ptap#readme",
+  "dependencies": {
+    "three": "^0.97.0"
+  }
+}
