@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "python -m SimpleHTTPServer",
+    "start": "polymer serve --port 8001",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,6 +22,7 @@
     "three": "^0.97.0"
   },
   "devDependencies": {
-    "@webcomponents/webcomponentsjs": "^2.1.3"
+    "@webcomponents/webcomponentsjs": "^2.1.3",
+    "polymer-cli": "^1.8.1"
   }
 }
