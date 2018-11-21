@@ -29,10 +29,10 @@ const light = new AmbientLight( 0xFFFFFF); // soft white light
 scene.add( light);
 
 const boxGeometry = new BoxGeometry( 1, 1, 1);
-const sphereGeometry = new SphereGeometry( 1, 24, 16);
+const sphereGeometry = new SphereGeometry( 1, 60, 36);
 
 const loader = new TextureLoader();
-const earthTexture = loader.load( "assets/textures/earth_atmos_2048.jpg");
+const earthTexture = loader.load( "assets/textures/land_ocean_ice_cloud_2048.jpg");
 const normalMaterial = new MeshNormalMaterial();
 const earthMaterial = new MeshPhongMaterial( {
   color: 0xFFFFFF,
@@ -86,7 +86,7 @@ function update( time) {
 }
 
 let lasttime = undefined;
-const stepduration = 15; // ms
+const stepduration = 1; // ms
 
 function render( time) {
   window.requestAnimationFrame( render);
