@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/olange/ptap#readme",
   "dependencies": {
-    "three": "^0.97.0"
+    "three": "0.98.0"
   }
 }

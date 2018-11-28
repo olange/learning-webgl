@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/olange/ptap#readme",
   "dependencies": {
-    "@polymer/lit-element": "^0.6.3",
-    "three": "^0.97.0"
+    "@polymer/lit-element": "0.6.3",
+    "three": "0.98.0"
   },
   "devDependencies": {
-    "@webcomponents/webcomponentsjs": "^2.1.3",
-    "polymer-cli": "^1.8.1"
+    "@webcomponents/webcomponentsjs": "2.2.1",
+    "polymer-cli": "1.9.1"
   }
 }
