@@ -1,22 +1,22 @@
 {
-  "name": "hosting",
+  "name": "00-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "An experiment with WebGL and Three.js",
+  "main": "index.html",
   "scripts": {
     "start": "python -m SimpleHTTPServer",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/olange/ptap.git"
+    "url": "git+ssh://git@github.com:olange/learning-webgl.git"
   },
-  "author": "Olivier Lange (olange@petit-atelier.ch)",
+  "author": "Olivier Lange",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/olange/ptap/issues"
+    "url": "https://github.com/olange/learning-webgl/issues"
   },
-  "homepage": "https://github.com/olange/ptap#readme",
+  "homepage": "https://github.com/olange/learning-webgl#readme",
   "dependencies": {
     "three": "0.98.0"
   }

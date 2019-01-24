@@ -2,7 +2,7 @@
   "name": "03-webgl-layers",
   "version": "1.0.0",
   "description": "Layers on top of each other, as WebComponents in WebGL and Three.js",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "polymer serve --port 8001",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/olange/learning-webgl.git"
   },
-  "author": "Olivier Lange (olange@petit-atelier.ch)",
+  "author": "Olivier Lange",
   "license": "AGPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/olange/learning-webgl/issues"
