@@ -19,7 +19,7 @@
   "homepage": "https://github.com/olange/learning-webgl#readme",
   "dependencies": {
     "@polymer/lit-element": "0.6.3",
-    "three": "0.98.0"
+    "three": "^0.100.0"
   },
   "devDependencies": {
     "@webcomponents/webcomponentsjs": "2.2.1",
