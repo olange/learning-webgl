@@ -54,14 +54,14 @@
 
     <!-- Add any global styles for body, document, etc. -->
     <style>
-      .fullbleed { margin: 0; height: 100vh; }
+      .fullbleed { margin: 0; height: 100vh }
       body {
         /* This is a font-stack that tries to use the system-default sans-serifs first */
         font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        line-height: 1.5; -webkit-font-smoothing: antialiased; }
-      h3, h4 { margin: 0; }
-      h3 { color: white; }
-      h4 { color: orange; }
+        line-height: 1.5; -webkit-font-smoothing: antialiased }
+      h3, h4 { margin: 0 }
+      h3 { color: white }
+      h4 { color: blueviolet}
     </style>
   </head>
   <body class="fullbleed">
@@ -69,15 +69,16 @@
 
     <my-anim class="fullbleed" interval="25">
       <h4>Experience 03</h4>
-      <h3>Layers as Web Components</h3>
-      <my-anim-sub name="1" color=0x6699ff speed=-0.5></my-anim-sub>
-      <my-anim-sub name="2" color=0x00ff00 speed=1></my-anim-sub>
-      <my-anim-sub name="3" color=0xcc0000 speed=2></my-anim-sub>
+      <h3>Layers with holes</h3>
+      <my-anim-plane name="blue" color=0x3388ff
+        speed=-0.5 size=4 segments=24 offset=+0.000 rotation=0></my-anim-sub>
+      <my-anim-plane name="rosa" color=0xff3399
+        speed=+0.2 size=8 segments=12 offset=-0.001 rotation=-45></my-anim-sub>
     </my-anim>
 
     <!-- Load webcomponents-bundle.js to check and load any polyfills your browser needs -->
     <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
     <script type="module" src="src/components/my-anim.js" crossorigin></script>
-    <script type="module" src="src/components/my-anim-sub.js" crossorigin></script>
+    <script type="module" src="src/components/my-anim-plane.js" crossorigin></script>
   </body>
 </html>
