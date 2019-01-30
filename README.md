@@ -37,3 +37,7 @@ Articles, useful resources, courseware, personal notes
 * [Nvidia Developer › GPU Gems 3 › Chapter 25. Rendering Vector Art on the GPU](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch25.html) (Charles Loop & Jim Blinn, 
 Microsoft Research) _Presents a method for accelerating the rendering of vector representations on the GPU_
 * [Wikipedia › Octree](https://en.m.wikipedia.org/wiki/Octree) _An octree is a tree data structure in which each internal node has exactly eight children. Octrees are most often used to partition a three-dimensional space by recursively subdividing it into eight octants. […]_
+
+## Interesting examples
+
+* [Three examples › CSS3D › Periodic table](https://threejs.org/examples/#css3d_periodictable) ([Source](https://github.com/mrdoob/three.js/blob/master/examples/js/renderers/CSS3DRenderer.js))
