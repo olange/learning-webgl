@@ -9,6 +9,12 @@ Articles, useful resources, courseware, personal notes
 * [First steps with WebGL and Three.js](codelabs/intro-to-webgl) _first steps and experiments, inspired by the slides  
   of David Lyons (see [tutorials](#tutorials) hereafter)_
 
+## Experiments
+
+* [01 · Three and Web Components](experiments/01-webgl-component/) Three.js animation in a web component
+* [02 · Three and embedded Web Components](experiments/02-webgl-subcomponent) Three.js animations in embedded web components
+* [03 · Three and plane layers](experiments/03-webgl-layers) Three.js animation of plane layers, with holes, rotating over each other
+
 ## Tutorials
 
 * [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) (David Lyons, 10-11.2014)
