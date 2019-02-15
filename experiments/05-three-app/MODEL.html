@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Experiment 03 – Layers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Model of WebComponents hierarchy offering 3D view & layouting capabilities" />
+
+    <!-- Add any global styles for body, document, etc. -->
+    <style>
+      .fullbleed { margin: 0; height: 100vh }
+      body {
+        /* This is a font-stack that tries to use the system-default sans-serifs first */
+        font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        line-height: 1.5; -webkit-font-smoothing: antialiased }
+    </style>
+  </head>
+  <body class="fullbleed">
+    <noscript>Please enable JavaScript to view this website.</noscript>
+
+    <three-app class="fullbleed">
+      <three-camera
+        id="camera01" type="perspective"
+        layer="0" options="{ fov, aspect, near, far }" />
+      <three-camera
+        id="camera02" type="perspective"
+        layer="9" options="{ fov, aspect, near, far }" />
+      <three-camera-orbiter
+        camera="camera01" autorotate />
+
+      <three-renderer
+        id="playerView" type="canvas"
+        camera="camera01" scene="scene01" />
+      <three-renderer
+        id="map" type="canvas"
+        camera="camera02" scene="scene01" />
+
+      <three-scene id="scene01">
+        <three-sandwich>
+          <three-sandwich-layer>
+            …
+          </three-sandwich-layer>
+          <three-sandwich-layer>
+
+            <fira-graph force-directed 3d>
+              <nodes>
+                <node id=node01 position="[x,y]"><paper-card></paper-card></node>
+                <three-mesh-node id=node02 position="[x,y]" />
+                <three-mesh-node id=node03 position="[x,y]" />
+                <three-mesh-node id=node04 position="[x,y]" />
+                <node id=node05 position="[x,y]" />
+                <node id=node06 position="[x,y]" />
+                <node id=node07 position="[x,y]" />
+              </nodes>
+              <links>
+                <link source=node01 target=node02><input type=text /></link>
+                <link source=node01 target=node03><input type=text /></link>
+              </links>
+            </fira-graph>
+
+          </three-sandwich-layer>
+        </three-sandwich>
+      </three-scene>
+
+    <three-scene id="scene02">
+      <three-force-layout type="3D">
+        <three-mesh …></three-mesh>
+        <three-mesh …></three-mesh>
+        <three-mesh …></three-mesh>
+        <three-mesh …></three-mesh>
+        <three-mesh …></three-mesh>
+        <three-mesh …></three-mesh>
+        <three-mesh …></three-mesh>
+      </three-force-layout>
+    </three-scene>
+
+    </three-app>
+
+    <!-- Load webcomponents-bundle.js to check and load any polyfills your browser needs -->
+    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+    <script type="module" src="src/components/three-app.js" crossorigin></script>
+  </body>
+</html>
