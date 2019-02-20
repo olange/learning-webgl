@@ -9,16 +9,18 @@
     <!-- Add any global styles for body, document, etc. -->
     <style>
       .fullbleed { margin: 0; height: 100vh }
+      .vflex { display: flex; flex-direction: row }
+      .vfill { flex-grow: 1 }
       body {
         /* This is a font-stack that tries to use the system-default sans-serifs first */
         font-family: Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         line-height: 1.5; -webkit-font-smoothing: antialiased }
     </style>
   </head>
-  <body class="fullbleed">
+  <body class="vflex fullbleed">
     <noscript>Please enable JavaScript to view this website.</noscript>
 
-    <three-app class="fullbleed">
+    <three-app class="vflex vfill">
       <three-camera
         id="camera01" type="perspective"
         layer="0" options="{ fov, aspect, near, far }" />
@@ -78,6 +80,6 @@
 
     <!-- Load webcomponents-bundle.js to check and load any polyfills your browser needs -->
     <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
-    <script type="module" src="src/components/three-app.js" crossorigin></script>
+    <script type="module" src="node_modules/@petitatelier/three-app/three-app.js" crossorigin></script>
   </body>
 </html>

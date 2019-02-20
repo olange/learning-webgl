@@ -1,0 +1,23 @@
+{
+  "name": "05-three-app",
+  "version": "0.1.0",
+  "description": "Sample web app using a collection of Three.js Web Components",
+  "main": "MODEL.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olivier Lange",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "@petitatelier/three-app": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/olange/learning-webgl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/olange/learning-webgl/issues"
+  },
+  "homepage": "https://github.com/olange/learning-webgl/tree/master/experiments/05-three-app#readme"
+}
