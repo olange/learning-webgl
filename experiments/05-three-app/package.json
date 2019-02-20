@@ -4,6 +4,7 @@
   "description": "Sample web app using a collection of Three.js Web Components",
   "main": "MODEL.html",
   "scripts": {
+    "start": "polyserve --npm --module-resolution=node --open-path=MODEL.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Olivier Lange",
@@ -11,6 +12,9 @@
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.2.7",
     "@petitatelier/three-app": "^0.1.0"
+  },
+  "devDependencies": {
+    "polyserve": "^0.27.15"
   },
   "repository": {
     "type": "git",
