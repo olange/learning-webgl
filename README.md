@@ -46,8 +46,10 @@ Microsoft Research) _Presents a method for accelerating the rendering of vector 
 
 ## Resources
 
-* [Shadertoy](https://www.shadertoy.com/) _A curated collection of shaders from all around the world – source, textures, editor and preview_ (and a [vintage version 0.4](https://www.iquilezles.org/apps/shadertoy/index2.html)?)
+* [Shadertoy](https://www.shadertoy.com/) _A curated collection of shaders from all around the world – source, textures, editor and preview_  
+  (and a [vintage version 0.4](https://www.iquilezles.org/apps/shadertoy/index2.html)?)
 
 ## Interesting examples
 
-* [Three examples › CSS3D › Periodic table](https://threejs.org/examples/#css3d_periodictable) ([Source](https://github.com/mrdoob/three.js/blob/master/examples/js/renderers/CSS3DRenderer.js))
+* [Three examples › CSS3D › Periodic table](https://threejs.org/examples/#css3d_periodictable) ([Source](https://github.com/mrdoob/three.js/blob/master/examples/js/renderers/CSS3DRenderer.js)) Three.js coupled to a CSS 3D renderer
+* [Tendrils - epok | Trust - Max Cooper](https://epok.tech/work/tendrils/) _Forms in motion, interact spontaneously, knitting emergent interconnections; interactive music visuals for Max Cooper's Emergence project._
