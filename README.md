@@ -1,4 +1,4 @@
-# Learning WebGL, Three.js and Babylon.js
+# Learning WebGL and Three.js
 
 Articles, useful resources, courseware, personal notes
 
@@ -43,6 +43,10 @@ Articles, useful resources, courseware, personal notes
 * [Nvidia Developer › GPU Gems 3 › Chapter 25. Rendering Vector Art on the GPU](https://developer.nvidia.com/gpugems/GPUGems3/gpugems3_ch25.html) (Charles Loop & Jim Blinn, 
 Microsoft Research) _Presents a method for accelerating the rendering of vector representations on the GPU_
 * [Wikipedia › Octree](https://en.m.wikipedia.org/wiki/Octree) _An octree is a tree data structure in which each internal node has exactly eight children. Octrees are most often used to partition a three-dimensional space by recursively subdividing it into eight octants. […]_
+
+## Resources
+
+* [Shadertoy](https://www.shadertoy.com/) _A curated collection of shaders from all around the world – source, textures, editor and preview_ (and a [vintage version 0.4](https://www.iquilezles.org/apps/shadertoy/index2.html)?)
 
 ## Interesting examples
 
