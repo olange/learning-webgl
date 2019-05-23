@@ -4,6 +4,11 @@ Articles, useful resources, courseware, personal notes
 
 [![Join the chat at https://gitter.im/olange/learning-webgl](https://badges.gitter.im/olange/learning-webgl.svg)](https://gitter.im/olange/learning-webgl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+## Workshops
+
+* [Shader Programming Primer: Real-Time Animation and Effects with GLSL](workshops/shaders-primer/README.md) 23.05.2019  
+  Mapping Festival 2019 · Leander Herzog · Fonderie Kugler, Genève
+
 ## Codelabs
 
 * [First steps with WebGL and Three.js](codelabs/intro-to-webgl) _first steps and experiments, inspired by the slides  
