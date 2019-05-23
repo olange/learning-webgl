@@ -45,6 +45,7 @@ by [Leander Herzog](https://www.shadertoy.com/user/lennyjpg) · Fonderie Kugler,
   
 More on the [Learning section](https://codepen.io/herlea/pen/QRQbyL) of Leander's codepen.
 
+* [Writing GLSL with three.js  —  Part 1](https://medium.com/@pailhead011/writing-glsl-with-three-js-part-1-1acb1de77e5c) by Dusan Bosnjak
 * [Drawing Lines is Hard](https://mattdesl.svbtle.com/drawing-lines-is-hard) by Matt Deslauriers, 09.03.2015
 
 ## Resources we talked about while hacking
