@@ -21,6 +21,12 @@ by [Leander Herzog](https://www.shadertoy.com/user/lennyjpg) · Fonderie Kugler,
 [Mouse move](bose-mouse-move.glsl) ·
 [Truchet Tile](bose-truchet-tile.glsl)
 
+### Interesting samples
+
+[jutawzj](https://leanderherzog.ch/jutawzj/#code) ·
+[pjkarlik/TruchetTiles](https://github.com/pjkarlik/TruchetTiles) ·
+[THREE.MeshLine](https://www.clicktorelease.com/code/THREE.MeshLine/demo/index.html)
+
 ## Workshop resources
 
 * Leander's workshop codepen  
@@ -46,6 +52,7 @@ More on the [Learning section](https://codepen.io/herlea/pen/QRQbyL) of Leander'
 * [Vanilla JS Shader template](https://codepen.io/desandro/details/GzvbJN)
 * [Shader Graph](https://unity.com/shader-graph) Unity Shadergraph tutorial
 * [hg_sdf](http://mercury.sexy/hg_sdf/) A GLSL library for building signed distance functions
-* [MadMapper › Tools › Material Editor](https://www.youtube.com/watch?v=UCnxYCFVrZw) cited by Boris Edelstein and tested with Mickaël
+* [MadMapper › Tools › Material Editor](https://www.youtube.com/watch?v=UCnxYCFVrZw) and [MadMapper › Docs › Material Editor](http://madmapper.com/doc/materials/) mentioned by Boris Edelstein and tested with Mickaël
 * [ISF · Interactive Shader Format](https://www.interactiveshaderformat.com/) for describing Shader program inputs
 * [KodeLife](https://hexler.net/products/kodelife) Real-time GPU shader editor
+* [Algorave](https://algorave.com)
