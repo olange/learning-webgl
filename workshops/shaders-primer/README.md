@@ -17,7 +17,7 @@ by [Leander Herzog](https://www.shadertoy.com/user/lennyjpg) · Fonderie Kugler,
 * [The Book of Shaders](https://thebookofshaders.com)  
   by Patricio Gonzalez Vivo and Jen Lowe
 
-* [NVScene 2015 Session: How to Create Content with Signed Distance Functions](https://www.youtube.com/watch?v=s8nFqwOho-s) by Johann Korndörfer, video 51 mn.
+* [NVScene 2015: How to Create Content with Signed Distance Functions](https://www.youtube.com/watch?v=s8nFqwOho-s) by Johann Korndörfer, video 51mn.
   
 More on the [Learning section](https://codepen.io/herlea/pen/QRQbyL) of Leander's codepen.
 
@@ -28,3 +28,4 @@ More on the [Learning section](https://codepen.io/herlea/pen/QRQbyL) of Leander'
 * [hg_sdf](http://mercury.sexy/hg_sdf/) A GLSL library for building signed distance functions
 * [MadMapper › Tools › Material Editor](https://www.youtube.com/watch?v=UCnxYCFVrZw) cited by Boris Edelstein and tested with Mickaël
 * [ISF · Interactive Shader Format](https://www.interactiveshaderformat.com/) for describing Shader program inputs
+* [KodeLife](https://hexler.net/products/kodelife) Real-time GPU shader editor
