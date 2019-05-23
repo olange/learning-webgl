@@ -1,4 +1,4 @@
-# Learning WebGL and Three.js
+# Learning WebGL, GLSL and Three.js
 
 Articles, useful resources, courseware, personal notes
 
@@ -6,8 +6,9 @@ Articles, useful resources, courseware, personal notes
 
 ## Workshops
 
-* [Shader Programming Primer: Real-Time Animation and Effects with GLSL](workshops/shaders-primer/README.md) 23.05.2019  
-  Mapping Festival 2019 · Leander Herzog · Fonderie Kugler, Genève
+* [Shader Programming Primer: Real-Time Animation and Effects with GLSL](workshops/shaders-primer/README.md)  
+  Mapping Festival 2019 / Workshop 6 · 23.05.2019 10h–19h  
+  by [Leander Herzog](https://www.shadertoy.com/user/lennyjpg) · Fonderie Kugler, Genève
 
 ## Codelabs
 
