@@ -8,7 +8,8 @@ Articles, useful resources, courseware, personal notes
 
 * [Shader Programming Primer: Real-Time Animation and Effects with GLSL](workshops/shaders-primer/README.md)  
   Mapping Festival 2019 / Workshop 6 · 23.05.2019 10h–19h  
-  by [Leander Herzog](https://www.shadertoy.com/user/lennyjpg) · Fonderie Kugler, Genève
+  by [Leander Herzog](https://www.shadertoy.com/user/lennyjpg) · Fonderie Kugler, Genève
+* [Texturing a video with a moire pattern · ShaderToy](https://www.shadertoy.com/view/WlBGzW) by Olivier Lange, Leander Herzog & Nicola Papale
 
 ## Codelabs
 
@@ -20,6 +21,7 @@ Articles, useful resources, courseware, personal notes
 * [01 · Three and Web Components](experiments/01-webgl-component/) Three.js animation in a web component
 * [02 · Three and embedded Web Components](experiments/02-webgl-subcomponent) Three.js animations in embedded web components
 * [03 · Three and plane layers](experiments/03-webgl-layers) Three.js animation of plane layers, with holes, rotating over each other
+* []
 
 ## Tutorials
 
