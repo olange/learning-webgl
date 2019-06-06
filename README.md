@@ -25,8 +25,7 @@ Articles, useful resources, courseware, personal notes
 ## Tutorials
 
 * [The Book of Shaders](https://thebookofshaders.com) by Patricio Gonzalez Vivo and Jen Lowe
-* [OpenGL Introduction](https://open.gl/introduction) 
-
+* [OpenGL Introduction](https://open.gl/introduction) by Alexander Overvoorde
 * [WebGL Fundamentals](https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html) (Greggman, 2012–2018 ongoing) _comprehensive collection of articles about WebGL, explained step by step_
   - [x] [WebGL Fundamentals](https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html)
   - [x] [WebGL How It Works](https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html)
@@ -41,11 +40,13 @@ Articles, useful resources, courseware, personal notes
   - [x] [WebGL - Rasterization vs 3D libraries](https://webglfundamentals.org/webgl/lessons/webgl-2d-vs-3d-library.html)
   - [x] [WebGL Anti-Patterns](https://webglfundamentals.org/webgl/lessons/webgl-anti-patterns.html)
   - [x] [TWGL, A tiny WebGL helper library › Examples](http://twgljs.org/#examples)
-
 * [WebGL2 Fundamentals](https://webgl2fundamentals.org) (Greggman, 2012–2018 ongoing) _the same recipe as WebGL Fundamental: comprehensive, high-quality articles, well explained, learning step by step_
-
-* [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) (David Lyons, 10-11.2014)
+* [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) (David Lyons, 10-11.2014)  
   [slides](http://davidscottlyons.com/threejs-intro/) | [vidéo 10.2014](https://youtu.be/6eLl8yQnxHQ) 18mn. | [vidéo 11.2014](https://youtu.be/-L6WWbKthvw) 43mn. | [sources](https://github.com/davidlyons/threejs-intro)
+  
+## Books
+
+* [Programming 3D Applications with HTML5 and WebGL — 3D Animation and Visualization for Web Pages](https://www.amazon.de/Programming-Applications-HTML5-WebGL-Visualization/dp/1449362966/) by Tony Parisi, O'Reilly, 2014
 
 ## Articles
 
@@ -55,7 +56,7 @@ Articles, useful resources, courseware, personal notes
 Microsoft Research) _Presents a method for accelerating the rendering of vector representations on the GPU_
 * [Wikipedia › Octree](https://en.m.wikipedia.org/wiki/Octree) _An octree is a tree data structure in which each internal node has exactly eight children. Octrees are most often used to partition a three-dimensional space by recursively subdividing it into eight octants. […]_
 
-## Resources
+## Useful resources
 
 * [Shadertoy](https://www.shadertoy.com/) _A curated collection of shaders from all around the world – source, textures, editor and preview_  
   (and a [vintage version 0.4](https://www.iquilezles.org/apps/shadertoy/index2.html)?)
