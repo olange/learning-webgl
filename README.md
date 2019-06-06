@@ -9,10 +9,10 @@ Articles, useful resources, courseware, personal notes
 * [Shader Programming Primer: Real-Time Animation and Effects with GLSL](workshops/shaders-primer/README.md)  
   Mapping Festival 2019 / Workshop 6 · 23.05.2019 10h–19h  
   by [Leander Herzog](https://www.shadertoy.com/user/lennyjpg) · Fonderie Kugler, Genève
-* [Texturing a video with a moire pattern · ShaderToy](https://www.shadertoy.com/view/WlBGzW) by Olivier Lange, Leander Herzog & Nicola Papale
 
 ## Codelabs
 
+* [Texturing a video with a moire pattern · ShaderToy](https://www.shadertoy.com/view/WlBGzW) by Olivier Lange, Leander Herzog & Nicola Papale
 * [First steps with WebGL and Three.js](codelabs/intro-to-webgl) _first steps and experiments, inspired by the slides  
   of David Lyons (see [tutorials](#tutorials) hereafter)_
 
@@ -21,12 +21,12 @@ Articles, useful resources, courseware, personal notes
 * [01 · Three and Web Components](experiments/01-webgl-component/) Three.js animation in a web component
 * [02 · Three and embedded Web Components](experiments/02-webgl-subcomponent) Three.js animations in embedded web components
 * [03 · Three and plane layers](experiments/03-webgl-layers) Three.js animation of plane layers, with holes, rotating over each other
-* []
 
 ## Tutorials
 
-* [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) (David Lyons, 10-11.2014)
-  [slides](http://davidscottlyons.com/threejs-intro/) | [vidéo 10.2014](https://youtu.be/6eLl8yQnxHQ) 18mn. | [vidéo 11.2014](https://youtu.be/-L6WWbKthvw) 43mn. | [sources](https://github.com/davidlyons/threejs-intro)
+* [The Book of Shaders](https://thebookofshaders.com) by Patricio Gonzalez Vivo and Jen Lowe
+* [OpenGL Introduction](https://open.gl/introduction) 
+
 * [WebGL Fundamentals](https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html) (Greggman, 2012–2018 ongoing) _comprehensive collection of articles about WebGL, explained step by step_
   - [x] [WebGL Fundamentals](https://webglfundamentals.org/webgl/lessons/webgl-fundamentals.html)
   - [x] [WebGL How It Works](https://webglfundamentals.org/webgl/lessons/webgl-how-it-works.html)
@@ -44,6 +44,9 @@ Articles, useful resources, courseware, personal notes
 
 * [WebGL2 Fundamentals](https://webgl2fundamentals.org) (Greggman, 2012–2018 ongoing) _the same recipe as WebGL Fundamental: comprehensive, high-quality articles, well explained, learning step by step_
 
+* [Intro to WebGL with Three.js](http://davidscottlyons.com/threejs-intro/) (David Lyons, 10-11.2014)
+  [slides](http://davidscottlyons.com/threejs-intro/) | [vidéo 10.2014](https://youtu.be/6eLl8yQnxHQ) 18mn. | [vidéo 11.2014](https://youtu.be/-L6WWbKthvw) 43mn. | [sources](https://github.com/davidlyons/threejs-intro)
+
 ## Articles
 
 * [ECMAScript modules in browsers](https://jakearchibald.com/2017/es-modules-in-browsers/) (Jake Archibald, 02.05.2017)
@@ -56,6 +59,7 @@ Microsoft Research) _Presents a method for accelerating the rendering of vector 
 
 * [Shadertoy](https://www.shadertoy.com/) _A curated collection of shaders from all around the world – source, textures, editor and preview_  
   (and a [vintage version 0.4](https://www.iquilezles.org/apps/shadertoy/index2.html)?)
+* [The Book of Shaders Editor](http://editor.thebookofshaders.com) _An online GLSL editor, similar to ShaderToy_
 
 ## Interesting examples
 
