@@ -10,8 +10,8 @@
   "author": "Olivier Lange",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "@webcomponents/webcomponentsjs": "^2.2.7",
-    "@petitatelier/three-app": "^0.1.0"
+    "@petitatelier/three-app": "^0.1.7",
+    "@webcomponents/webcomponentsjs": "^2.2.10"
   },
   "devDependencies": {
     "polyserve": "^0.27.15"
