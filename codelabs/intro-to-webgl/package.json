@@ -20,7 +20,7 @@
   "license": "CC-BY-SA-4.0",
   "dependencies": {
     "orbit-controls-es6": "^2.0.1",
-    "three": "^0.114.0"
+    "three": "^0.125.0"
   },
   "devDependencies": {
     "prpl-server": "^1.2.0"
