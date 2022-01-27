@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/olange/learning-webgl#readme",
   "dependencies": {
-    "three": "^0.100.0"
+    "three": "^0.137.0"
   }
 }
